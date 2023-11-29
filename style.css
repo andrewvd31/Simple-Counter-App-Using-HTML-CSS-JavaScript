@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(251, 167, 98, 0.77);
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(236, 208, 255);
+    box-shadow: 0px 0px 5px rgba(255,255,255);
+    padding: 30px 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.box{
+    padding: 30px 50px;
+    font-size: 50px;
+    box-shadow: 0px 0px 5px rgba(255,255,255);
+    background-color: rgb(236, 208, 255);
+    border-radius: 10px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button{
+    padding: 25px 50px;
+    font-size: 50px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0);
+    background-color: rgb(236, 208, 255);
+    border-radius: 10px;
+    margin: 0 50px 55px;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-div{
+    margin-top: 10px;
+}
+
+button.prev{
+    background-color: rgb(255, 0, 0);
+}
+
+button.next{
+    background-color: rgb(5, 145, 31);
+}
+
+button.prev,button.next{
+    color: white;
+    font-weight: bold;
+}
+
+button.reset{
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+
+button:hover,.box:hover,h1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.box:hover,h1:hover{
+    cursor: not-allowed;
+}
